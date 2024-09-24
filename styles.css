@@ -14,7 +14,7 @@ body  {
 .title{
 	display:flex;
     flex-direction: column;
-    margin: 0;
+
 	color:#F0ECE5;
 	font-size:60px;
 	width:100%;
@@ -26,6 +26,7 @@ body  {
 .title h1 h4{
     height: 200px;
     width: 100%;
+    margin: 0;
 }
 
 #menu-items {
