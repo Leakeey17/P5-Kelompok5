@@ -125,7 +125,7 @@ body  {
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
 }
 
