@@ -129,7 +129,7 @@ body  {
 }
 
 #info2{
-    height: 1600px;
+    height: 1300px;
 	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
@@ -140,7 +140,7 @@ body  {
 }
 
 #info3{
-    height: 1700px;
+    height: 1400px;
 	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
@@ -151,7 +151,7 @@ body  {
 }
 
 #info4{
-    height: 1500px;
+    height: 1200px;
 	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
@@ -162,7 +162,7 @@ body  {
 }
 
 #info5{
-    height: 1600px;
+    height: 1500px;
 	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
@@ -173,7 +173,7 @@ body  {
 }
 
 #kontak{
-    height: 700px;
+    height: 800px;
 	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
@@ -184,8 +184,8 @@ body  {
 }
 
 #bonus{
-	width: fit-content;
-    height: 1000px;
+	width: 100%;
+    height: 1400px;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
@@ -195,28 +195,52 @@ body  {
 }
 
 #image{
-    height: 40vh;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image{
     height: fit-content;
-    width: fit-content;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
 }
 #image1{
-    height: 40vh;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #image2{
-    height: 80vh;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #image3{
-    height: 40vh;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #image4{
-    height: 40vh;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#image5{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 #menu-items:hover >.menu-item{
   opacity: 0.3;
