@@ -3,6 +3,7 @@ body  {
     background-color: #161A30;
     height: 2000px;
 }
+
 #menu{
     height: 100vh;
     display: flex;
@@ -37,16 +38,6 @@ body  {
     margin-left: 7vw;
     z-index:2;
 }
-.title1{
-    color:white;
-    font-size: 3vw;
-    height: fit-content;
-    width: 100%;
-}
-
-.title1 h1{
-    margin: 2vh 0 2vh 0;
-}
 
 .menu-item{
     color: #B6BBC4;
@@ -57,28 +48,47 @@ body  {
     padding: 2vh;
   }
 
+.background-img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-repeat: repeat;
+    height: 9500px;
+    width: 100%;
+}
+
+#background-img {
+    position: absolute;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+    filter: brightness(0.5)contrast(0.1);
+}
+
 .para{
     display: flex;
     color:#B6BBC4;
     flex-direction: column;
-    padding: 0 10vh 0 0;
     width: 100%;
     
     max-height: 30vh;
-    font-size: 5vw 5vw 10%;
+    font-size: 5vh;
 }
 
 .para ol{
-    margin: 0 0 5px 0;
+    margin: 0 0 4vh 0;
 }
 
 .para p{
-    margin: 0 0 5px 0;
+    margin: 0 0 4vh 0;
 }
 
 
 .button a{
-    font-size: 2vh;
+    font-size: 5vh;
 }
 
 .button{
@@ -97,20 +107,30 @@ body  {
     transition: 0.2s;
 }
 
+.title1{
+    color:white;
+    font-size: 3vw;
+    height: fit-content;
+    width: 100%;
+}
+
+.title1 h1{
+    margin: 2vh 0 2vh 0;
+}
+
 #info1{
-	height:100vh;
-	width:100%-2rem;
+    height: 1300px;
+	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
 	z-index:3;
-    overflow: hidden;
     padding-left: 2rem;
 }
 
 #info2{
-    height:100vh;
-	width:100%-2rem;
+    height: 1600px;
+	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
@@ -120,8 +140,8 @@ body  {
 }
 
 #info3{
-    height:100vh;
-	width:100%-2rem;
+    height: 1700px;
+	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
@@ -131,8 +151,8 @@ body  {
 }
 
 #info4{
-    height:100vh;
-	width:100%-2rem;
+    height: 1500px;
+	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
@@ -142,8 +162,8 @@ body  {
 }
 
 #info5{
-    height:100vh;
-	width:100%-2rem;
+    height: 1600px;
+	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
@@ -153,8 +173,8 @@ body  {
 }
 
 #kontak{
-    height:100vh;
-	width:100%-2rem;
+    height: 700px;
+	width:fit-content;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
@@ -164,7 +184,8 @@ body  {
 }
 
 #bonus{
-	width:100%-2rem;
+	width: fit-content;
+    height: 1000px;
 	display: flex;
 	flex-wrap:wrap;
     flex-direction: column;
@@ -173,44 +194,28 @@ body  {
     padding-left: 2rem;
 }
 
-.background{
-    width: 100%;
-    height: 85vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-#background-img {
-    position: absolute;
-    background-repeat: repeat;
-    width: 100%;
-    height: 2000px;
-    object-fit: cover;
-    z-index: -1;
-    opacity: 0.5;
-    filter: brightness(0.5)contrast(0.1);
-}
-
 #image{
-    height: 200px;
+    height: 40vh;
 }
 .image{
     height: fit-content;
     width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #image1{
-    height: 400px;
+    height: 40vh;
 }
 #image2{
-    height: 400px;
+    height: 80vh;
 }
 #image3{
-    height: 300px;
+    height: 40vh;
 }
 #image4{
-    height: 300px;
+    height: 40vh;
 }
 
 #menu-items:hover >.menu-item{
@@ -223,10 +228,16 @@ body  {
   transition: 0.3s;
 }
 
+.menu-bg-pattern{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
 #menu-bg-pattern{
   height:100vh;
   width:100vw;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 12%, transparent 60%);
+  background-image: radial-gradient(rgba(236, 196, 241, 0.1) 12%, transparent 60%);
   background-position: 0% 0%;
   background-size: 12vmin 12vmin;
   
@@ -237,13 +248,14 @@ body  {
   z-index:1;
   
   transition: 0.2s;
+  overflow: hidden;
   }
   
 #menu-items:hover ~ #menu-bg-pattern {
-    background-size: 14vmin 14vmin;
+    background-size: 20vmin 20vmin;
     transition: 1s;
     opacity: 50%;
     rotate: 2deg;
-    background-image: radial-gradient(rgba(211, 197, 231, 0.1) 12%, transparent 60%);
+    background-image: radial-gradient(rgba(185, 152, 231, 0.1) 12%, transparent 60%);
 }
 
