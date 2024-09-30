@@ -92,11 +92,9 @@ body{
     background-image: radial-gradient(rgba(185, 152, 231, 0.1) 12%, transparent 60%);
 }
 
-.page2{
+.page{
     margin: 0;
 }
-
-
 
 .box{
     margin: 3vw;
