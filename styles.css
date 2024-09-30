@@ -20,8 +20,7 @@ body{
 	color:#F0ECE5;
 	font-size:4vh;
 	width:100%;
-    min-height: 15vh;
-    max-height: 25vh;
+    min-height: 23vh;
 }
 
 .title h1,h4{
@@ -99,7 +98,7 @@ body{
 .box{
     margin: 3vw;
     padding-top: 1vh;
-    height: 300vh;
+    height: 400vh;
     min-height: 1200px;
     background-color: #3e3d3b2d;
     border-radius: 20px;
