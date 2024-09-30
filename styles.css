@@ -44,11 +44,11 @@ body{
 
 .menu-item{
     color: #B6BBC4;
-    font-size: 5vh;
+    font-size: 4vh;
     width: fit-content;
     display: block;
     text-decoration: none;
-    padding: 2vh;
+    padding: 1vh;
   }
 
 #menu-items:hover >.menu-item{
@@ -98,7 +98,7 @@ body{
 
 .box{
     margin: 3vw;
-    height: 200vh;
+    height: 220vh;
     min-height: 1000px;
     background-color: #3e3d3b2d;
     border-radius: 20px;
